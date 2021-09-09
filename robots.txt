@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://marcosmendonca.github.io/brscapiacu1/sitemap.xml

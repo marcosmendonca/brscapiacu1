@@ -1,0 +1,117 @@
+<!DOCTYPE html><html lang="pt-br"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>All tags - BRS CAPIAÇU</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://marcosmendonca.github.io/brscapiacu1/feed.xml"><link rel="alternate" type="application/json" href="https://marcosmendonca.github.io/brscapiacu1/feed.json"><meta property="og:title" content="BRS CAPIAÇU"><meta property="og:site_name" content="BRS CAPIAÇU"><meta property="og:description" content=""><meta property="og:url" content="https://marcosmendonca.github.io/brscapiacu1/tags/"><meta property="og:type" content="website"><style>:root{--body-font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";--heading-font:var(--body-font);--post-entry-font:var(--body-font);--logo-font:var(--body-font);--menu-font:var(--body-font)}</style><link rel="stylesheet" href="https://marcosmendonca.github.io/brscapiacu1/assets/css/style.css?v=5fadc1b7761badf64c71ac7ece9869f4"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"BRS CAPIAÇU","url":"https://marcosmendonca.github.io/brscapiacu1/"}</script></head><body><div class="container"><header class="top" id="js-top"><div><a class="logo" href="https://marcosmendonca.github.io/brscapiacu1/">BRS CAPIAÇU</a></div></header><main class="tag-page"><div class="hero hero--full"><header><h1>Tags <sup>(0)</sup></h1><p>Collection of all tags</p></header></div><ul class="l-grid l-grid--0"></ul></main></div><footer class="footer"><div class="footer__copyright">Powered by <a href="https://getpublii.com" target="_blank" rel="nofollow noopener">Publii</a></div><button class="footer__bttop js-footer__bttop" aria-label="Back to top"><svg><title>Back to top</title><use xlink:href="https://marcosmendonca.github.io/brscapiacu1/assets/svg/svg-map.svg#toparrow"/></svg></button></footer><script>window.publiiThemeMenuConfig = {    
+        mobileMenuMode: 'sidebar',
+        animationSpeed: 300,
+        submenuWidth: 'auto',
+        doubleClickTime: 500,
+        mobileMenuExpandableSubmenus: true, 
+        relatedContainerForOverlayMenuSelector: '.top',
+   };</script><script defer="defer" src="https://marcosmendonca.github.io/brscapiacu1/assets/js/scripts.min.js?v=18410cbe84c2356f2fa9c4bf730b3bca"></script><script>var images = document.querySelectorAll('img[loading]');
+
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }</script><div class="cookie-popup js-cookie-popup cookie-popup--uses-badge"><h2>Este site usa cookies</h2><p>Selecione quais cookies você deseja optar por meio das caixas de seleção abaixo; nosso site usa cookies para examinar o tráfego do site e a atividade do usuário enquanto em nosso site, para marketing e para fornecer funcionalidade de mídia social. <a href="#not-specified">Mais detalhes...</a></p><form><input id="gdpr-necessary" name="gdpr-necessary" checked="checked" disabled="disabled" type="checkbox"> <label for="gdpr-necessary">Required</label> <input id="gdpr-functions" name="gdpr-functions" type="checkbox"> <label for="gdpr-functions">Functionality</label> <input id="gdpr-analytics" name="gdpr-analytics" type="checkbox"> <label for="gdpr-analytics">Analytical</label> <input id="gdpr-marketing" name="gdpr-marketing" type="checkbox"> <label for="gdpr-marketing">Marketing</label><p class="cookie-popup__save-wrapper"><button type="submit" class="cookie-popup__save">Salvar</button></p></form><span class="cookie-popup-label">Política de Cookies</span></div><script>(function() {
+                function addScript (src, inline) {
+                    var newScript = document.createElement('script');
+
+                    if (src) {
+                        newScript.setAttribute('src', src);
+                    }
+
+                    if (inline) {
+                        newScript.text = inline;
+                    }
+
+                    document.body.appendChild(newScript);
+                }
+
+                var popup = document.querySelector('.js-cookie-popup');
+                var checkboxes = popup.querySelectorAll('input[type="checkbox"]');
+                var save = popup.querySelector('button');
+                var currentConfig = localStorage.getItem('publii-gdpr-allowed-cookies');
+                var blockedScripts = document.querySelectorAll('script[type^="gdpr-blocker/"]');
+                
+
+                popup.addEventListener('click', function() {
+                    if (!popup.classList.contains('cookie-popup--is-sticky')) {
+                        popup.classList.add('cookie-popup--is-sticky');
+                    }
+                });
+
+                save.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    popup.classList.remove('cookie-popup--is-sticky');
+                    var allowedGroups = [];
+
+                    for (var i = 0; i < checkboxes.length; i++) {
+                        if (checkboxes[i].checked) {
+                            var groupName = checkboxes[i].getAttribute('name').replace('gdpr-', '');
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + groupName + '"]');
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+
+                            allowedGroups.push(groupName);
+                        }
+                    }
+
+                    localStorage.setItem('publii-gdpr-allowed-cookies', allowedGroups.join(','));
+                    popup.classList.remove('cookie-popup--is-sticky');
+
+                    setTimeout(function () {
+                        if (currentConfig !== null) {
+                            window.location.reload();
+                        }
+                    }, 250);
+                });
+
+                if (currentConfig === null) {
+                    popup.classList.add('cookie-popup--is-sticky');
+                    var checkedGroups = popup.querySelectorAll('input[type="checkbox"]:checked');
+
+                    for (var i = 0; i < checkedGroups.length; i++) {
+                        var allowedGroup = checkedGroups[i].name.replace('gdpr-', '');
+
+                        if (allowedGroup !== '-' && allowedGroup !== '') {
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + allowedGroup + '"]');
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+                        }
+                    }
+                } else {
+                    if (currentConfig !== '') {
+                        var allowedGroups = currentConfig.split(',');
+                        var checkedCheckboxes = popup.querySelectorAll('input[type="checkbox"]:checked');
+
+                        for (var j = 0; j < checkedCheckboxes.length; j++) {
+                            var name = checkedCheckboxes[j].name.replace('gdpr-', '');
+
+                            if (allowedGroups.indexOf(name) === -1) {
+                                checkedCheckboxes[j].checked = false;
+                            }
+                        }
+
+                        for (var i = 0; i < allowedGroups.length; i++) {
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + allowedGroups[i] + '"]');
+                            var checkbox = popup.querySelector('input[type="checkbox"][name="gdpr-' + allowedGroups[i] + '"]');
+
+                            if (checkbox) {
+                                checkbox.checked = true;
+                            }
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+                        }
+                    }
+                }
+            })();</script></body></html>
